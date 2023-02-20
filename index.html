@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light rounded" aria-label="Thirteenth navbar example">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+        <a class="navbar-brand col-lg-3 me-0" href="index.html">BlogList</a>
+        <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Blogs</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="finance.html">Finance</a></li>
+              <li><a class="dropdown-item" href="sports.html">Sports</a></li>
+              <li><a class="dropdown-item" href="travel.html">Travel</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+            <a href="signin.html"><button class="btn btn-primary" >Sign Out</button></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Welcome to BlogList</h1>
+        <p class="lead text-muted">We are a blogging website focussing on finance, sports, and travel content. </p>
+        <p>
+          <a href="about.html" class="btn btn-primary my-2">Who are we?</a>
+          <a href="contact.html" class="btn btn-secondary my-2">Send us a message</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://img.freepik.com/free-vector/finance-financial-performance-concept-illustration_53876-43398.jpg?size=626&ext=jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">Know all about finance with us, from bitcoin, stocks, comapanies, we have everythinh to offer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="finance.html"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://img.freepik.com/free-vector/box-full-sport-equipments_1308-37207.jpg?size=626&ext=jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">Know all about sports, we cover every sports from cricket, football, basketball, we have everything.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="sports.html"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://img.freepik.com/free-vector/realistic-travel-background-with-elements_52683-77784.jpg?size=626&ext=jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">Travel with us to the places you wish to visit, know all about different countries in our travel diaries.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="travel.html"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                </div>
+                <small class="text-muted">15 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

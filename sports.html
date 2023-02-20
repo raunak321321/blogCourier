@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports</title>
+    <link rel="stylesheet" href="blog.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light rounded" aria-label="Thirteenth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+            <a class="navbar-brand col-lg-3 me-0" href="index.html">BlogList</a>
+            <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Blogs</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="finance.html">Finance</a></li>
+                  <li><a class="dropdown-item" href="sports.html">Sports</a></li>
+                  <li><a class="dropdown-item" href="travel.html">Travel</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+                <a href="signin.html"><button class="btn btn-primary" >Sign Out</button></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <h1 class="heading-blog">Sports Blogs</h1>
+      <div class="blog-card">
+        <h2 class="blog-title">Where did it all go wrong for Australia’s Test cricket team on the tour of India?</h2>
+        <p class = blog-content>India is the toughest place in the world to play cricket and touring sides very rarely win there. From Australia’s last 10 tours, only one has been victorious – the 2-1 series win in 2004-05. Indian cricketers are tough, stress-tested early in ferocious street games and venerated like gods. This India side boasts batting titans such as Virat Kohli, Cheteshwar Pujara and Rohit Sharma. Australia has its aces in Steve Smith, Marnus Labuschagne, Usman Khawaja and Travis Head, but all are playing very differently to their counterparts. Instead of moving their feet to where the ball is pitching to hit straight, in Delhi they turned to the sweep shot all too often – with disastrous consequences.</p>
+        <p class = blog-content>Who was behind this calamitous tactic? After Sunday’s debacle – bowled out in a single session, losing four major wickets in 11 balls and nine for 48 runs – no one is claiming it. Under most scrutiny is head coach Andrew McDonald, who took over when Justin Langer was forced out in April last year, and whose style is not to coach but instead let everyone develop their own game plans. Team batting coach Michael DiVenuto will also be sweating. Bearing the brunt will be captain Pat Cummins, a brilliant bowler whose brainless sweep on his first ball won him a golden duck. Is Cricket Australia (CA) to blame? It prepared the side for subcontinental conditions on tours to Pakistan in March and Sri Lanka in July but went into this series with no warm-up games.</p>
+      </div>
+      <div class="blog-card">
+        <h2 class="blog-title">The Matildas may be very good again – with the usual caveats</h2>
+        <p class = blog-content>The ball had barely left Cortnee Vine’s right boot and Tony Gustavsson and Mel Andreatta were already losing their minds, celebrating a stunner of a goal that opened the floodgates. To be any manager and assistant on the bench five months out from a World Cup would surely feel fraught. But to be a manager and assistant under pressure, five months out from a World Cup which they are co-hosting, might do something altogether different to the levels of cortisol in one’s body.</p>
+        <p class = blog-content>There were a lot of eyes on CommBank Stadium on Sunday night, scrutinising a rematch against Spain and wondering if the Matildas would confirm last June’s 7-0 loss was just an experimental anomaly. Searching for a sliver of evidence that there is reason to hope come late July, that Gustavsson’s at times worrying two-year tenure was finally closing in on its objective.</p>
+      </div>
+      <div class="post-form">
+        <form>
+            <div class="form-group">
+              <label>Title</label>
+              <input class="form-control" type="text" name="postTitle">
+              <label>Post</label>
+              <textarea class="form-control" name="postBody" rows="5" cols="30"></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit" name="button">Publish</button>
+        </form>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
